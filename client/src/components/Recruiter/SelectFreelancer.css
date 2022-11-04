@@ -1,0 +1,102 @@
+*,::after,::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.flex{
+    display:flex;
+}
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+.categorySelectionContainer{
+    height:100vh;
+    justify-content:center;
+    align-items:center
+}
+.card{
+   text-align: center;
+    gap:30px;
+    padding:3em;
+    flex: 1 1 33.33%;
+    border-radius:15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-container{
+   gap:30px;
+}
+.card>img{
+    margin:0 auto;
+    width:40%;
+   
+}
+.card>Button{
+   margin-top:auto;
+}
+
+.container>h1{
+    font-size:3rem;
+    margin-bottom:1em;
+}
+.card>h3:last-of-type{
+   font-weight:300;
+}
+.location-icon{
+   margin-top:20px;
+
+}
+/* recruting freelancer */
+.freelancer-container{
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    padding: 2em 0;
+    
+}
+.recuiter-content{
+    
+}
+.freelancer-image{
+    flex-basis:15%;
+}
+.freelancer-image>img{
+    width:100%;
+    border-radius: 50px;
+}
+.freelancer-card{
+    flex-basis: 49%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:2em;
+   gap:20px;
+   height:300px;
+   
+}
+.freelancer-info{
+  flex-basis:30%;
+}
+.freelancer-info>h3,.freelancer-info>p{
+    margin-bottom:1em;
+}
+.freelancer-right{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.freelancer-right>h3{
+    align-self: center;
+}
+.freelancer-contact{
+    gap:10px;
+    margin-bottom:10px;
+}
+.freelancer-email{
+    gap:3px;
+    align-items: center;
+}
+.freelancer-phone{
+    align-items: center;
+    gap:3px;
+}
+.freelancer-bookbutton{
+   width:170px;
+}
